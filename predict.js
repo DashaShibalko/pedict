@@ -11,8 +11,6 @@ const percentageInput = document.querySelector(
   ".predict-form__input-percentage"
 );
 
-localStorage.clear();
-
 const contactUsPopUp = document.querySelector(".contact-us__fixed-overlay");
 
 async function loadPredict() {
