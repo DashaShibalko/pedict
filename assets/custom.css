@@ -746,11 +746,13 @@ float: left;
 .contact-details h4{ color: #333333; font-size: 30px; font-weight: 400; margin-bottom: 20px;}
 .contact-details input, .contact-details textarea{background: #f4f4f4; border:#dbdbdb solid 1px; border-radius: 2px; font-size: 14px; color: #333333; padding: 8px 15px;margin-bottom: 10px; width: 91%;}
 .contact-details textarea{height:116px; resize: none; margin-bottom: 20px;}
-.banner-text a{    background: #008538;
+.banner-text button{    background: #008538;
     color: #fff;
     padding: 6px 12px;
+    border: none;
+    border-radius: 2px;
     display: inline-block;}
-.banner-text a:hover{text-decoration: none; opacity: .8;}
+.banner-text button:hover{text-decoration: none; opacity: .8;}
 .contact-details input[type="submit"]{background: #02a046;
     color: #fff;
     width: 140px;
@@ -1035,13 +1037,10 @@ box-shadow: 0 0 3px rgba(0, 0, 0, 0.14901960784313725);}
 	margin-bottom: 8px;
 }
 .banner-text {
-	width: 329px;
-	height: 138px;
-	padding: 20px;
-	position: absolute;
-	z-index: 9;
-	    bottom: 45px;
-    right: 0;
+    height: 138px;
+    padding: 20px;
+    position: absolute;
+    bottom: 160px;
 }
 	.blog-section img{width: 100%;}
 	.testimonials-section{background-attachment: inherit;}

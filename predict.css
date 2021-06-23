@@ -1,0 +1,119 @@
+.predict__fixed-overlay,
+.contact-us__fixed-overlay {
+    display: none;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+}
+.predict__wrapper,
+.contact-us__wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.predict,
+.contact-us {
+    width: 120%;
+    height: 100%;
+
+    background: #f8f9fa;;
+
+    text-align: center;
+
+    padding-bottom: 5%;
+}
+
+.predict-header{
+    background-color: #008538;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3% 4%;
+}
+.predict-header__heading{
+  color: #f8f9fa;
+}
+.predict-header__cross {
+    background-image: url(./assets/cross.png) ;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.predict-header__cross:hover{
+    cursor: pointer;
+}
+#predict__form{
+    padding: 3% 5%;
+    text-align: left;
+}
+.predict-form__input{
+  height: 30px;
+  width: 50%; 
+
+  background: none;
+  border: 1px solid #343a40;
+  border-radius: 2px;
+
+  padding-left: 10px; 
+}
+.predict-form__label{
+  font-size: 15px;
+  font-weight: 500;
+}
+.predict-form__submit {
+  background-color: #008538;
+  color: #f8f9fa;
+  border: none;
+  border-radius: 2px;
+  padding: 1% 1.5%;
+  font-weight: 500;
+
+}
+
+.input-error{
+  border: 2px solid #dc3545;
+}
+.correct-input{
+  border:  1px solid #28a745;
+}
+
+
+.contact-us {
+  background: #28a745;
+  padding: 9% 11%;
+}
+.contact-us__paragraph {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.contact-us__email {
+
+  border: 2px solid #fff;
+  border-radius: 3px;
+  padding: 5px 10px;
+  color: #fff;
+}
+.contact-us__email:visited,
+.contact-us__email:active {
+  color: #fff;
+}
+.contact-us__email::before {
+  content: url(./assets/email-icon.png);
+  margin-right: 3px;
+}
+.contact-us__cross {
+  background-image: url(./assets/cross.png) ;
+  background-repeat: no-repeat;
+  height: 30px;
+  margin-bottom: 5px;
+  background-position-x: right;
+}
