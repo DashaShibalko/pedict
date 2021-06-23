@@ -101,6 +101,13 @@ predictPopUp.addEventListener("click", (e) => {
     if (document.getElementById("graph")) {
       removeImage();
     }
+    let inputs = document.querySelectorAll(".correct-input");
+    if(inputs!==undefined){
+      inputs.forEach((elem)=>{
+        elem.classList.remove("correct-input");
+        elem.classList.add("input-error");
+      })
+    }
     closePopUp(predictPopUp);
   }
 });
