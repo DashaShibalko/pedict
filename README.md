@@ -1,3 +1,3 @@
 # predict
 
-(GO){https://dashashibalko.github.io/predict/}
+[GO](https://dashashibalko.github.io/predict/)
